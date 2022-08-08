@@ -9,7 +9,7 @@ Dalam menjalankan aplikasi ini ada beberapa tools yang harus di persiapkan yaitu
 - Xampp version 3.3.1
 
 Langkah-langkah untuk menjalankan aplikasi :
-- Download/clone source code dari link berikut:
+- Download/clone source code
 - Jalankan Xampp dan start MySQL
 - Membuka project web di visual studio
 - Rebuilt project untuk mendownload library yang akan digunakan pada project.
@@ -28,7 +28,7 @@ Dalam menjalankan aplikasi ini ada beberapa tools yang harus di persiapkan yaitu
 - Smartphone atau emulator android
 
 Langkah-langkah dalam menjalakan aplikasi :
-- Download/clone source code pada link berikut:
+- Download/clone source code
 - Jalankan pada android studio
 - Mengaktifkan mode pengembangan pada smartphone atau emulator android
 - Jalankan aplikasi.
