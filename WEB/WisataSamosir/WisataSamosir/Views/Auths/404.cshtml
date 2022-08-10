@@ -1,0 +1,34 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    Layout = "_Layoutpage";
+
+}
+<div id="content-wrapper">
+    <div class="container-fluid">
+        <div class="text-center">
+            <div class="error mx-auto" data-text="404">401</div>
+            <p class="lead text-gray-800 mb-5">Page Not Found</p>
+            <p class="text-gray-500 mb-0">It looks like you found a glitch in the matrix...</p>
+        </div>
+
+    </div>
+</div>
+<script>
+    var seconds = 5;
+    window.onload = function () {       
+        var timer = setInterval(function () {
+            if (seconds <= 0) {
+                document.getElementById("time").innerHTML = 0;
+                clearInterval(timer);
+            }
+            else {
+                document.getElementById("time").innerHTML = seconds - 1;
+            }
+            seconds -= 1;
+        }, 1000);
+
+        setTimeout(function () {
+            window.location.href = '/';
+        }, seconds * 1000);
+    }
+</script>
