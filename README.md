@@ -5,7 +5,7 @@ Aplikasi wisata samosir berbasis web ini adalah aplikasi berbasis web yang bergu
 Aplikasi ini dibangun menggunakan framework ASP NET.
 Dalam menjalankan aplikasi ini ada beberapa tools yang harus di persiapkan yaitu :
 - Google Chrome
-- Visual Studio Code Community 2019
+- Visual Studio Code Community minimal version 2017
 - Xampp version 3.3.1
 
 Langkah-langkah untuk menjalankan aplikasi :
@@ -25,7 +25,7 @@ password: martin123
 Aplikasi apprute berbasis mobile ini adalah aplikasi yang membantu wisatawan dengan memberi informasi rute perjalanan wisata menuju samosir baik perjalanan rute darat maupun dari rute air melalui beberapa pelabuhan yang telah tersedia. Aplikasi ini dibangun menggunakan Android Studio dan menggunakan bahasa Java.
 Dalam menjalankan aplikasi ini ada beberapa tools yang harus di persiapkan yaitu :
 - Android Studio minimal versi 2019
-- Smartphone atau emulator android
+- Smartphone atau emulator android (minimal android 7)
 
 Langkah-langkah dalam menjalakan aplikasi :
 - Download/clone source code
